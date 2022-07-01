@@ -120,7 +120,7 @@ while True:
           import openai
           import os
           
-          openai.api_key = "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"
+          openai.api_key = "OPENAI_KEY_HERE"
           c=("Chat with me like a friend:\n "+main(lines))
           response = openai.Completion.create(
             engine="text-davinci-002",
